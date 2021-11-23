@@ -1,5 +1,7 @@
 # azubi-challenge
 ##My apprenticeship practice challenge
+VIEW MODE: Mobile - Iphone X
+Default browser: CHROME
   
   ## portfolio-301021
 
@@ -13,7 +15,6 @@
   - Adobe XD: to design the concept for the porfolio
   - Adobe PS: images editing
   - VS Code: writing codes
-  - Default browser: CHROME
   
   #### Imprint:
   - Logo, imgs, concept... are personal credited.
