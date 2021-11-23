@@ -1,20 +1,21 @@
 # azubi-challenges
-My apprenticeship practice challenges
-  1. portfolio-301021
+##My apprenticeship practice challenges
+  ###1. portfolio-301021
 
-  ## Purposes:
+  #### Purposes:
   - to create a simple responsive website about myself/ portfolio
   - to practice HTML, CSS structures
   - to practice adding GlideJS plugins
   - to prepare for the final exam
 
-  ## Tools using:
+  #### Tools using:
   - Adobe XD: to design the concept for the porfolio
   - Adobe PS: images editing
   - VS Code: writing codes
   - Default browser: CHROME
   
-  ## Imprint:
+  #### Imprint:
   - Logo, imgs, concept... are personal credited.
   - Please use with permission or credits
-***--------------------------------###---------------------------------***
+
+--------------------------------###---------------------------------
