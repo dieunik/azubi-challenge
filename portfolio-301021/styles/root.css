@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+	/* Colors: */
+	--background-color: #fdf9f8;
+	--accent-color: #f2ebda;
+	--secondary-color: #e0be66;
+	--primary-color: #426952;
+	--secondary-color-2: #ecd380;
+	--primary-color-2: #627b56;
+
+	/* Font/text values */
+	--primary-font: "Comfortaa", cursive;
+	--secondary-font: "Poppins", sans-serif;
+	--font-style-normal: normal;
+	--font-style-italic: italic;
+	--font-weight-400: 400;
+	--font-weight-500: 500;
+	--font-weight-600: 600;
+	--font-weight-700: 700;
+	--font-size-16: 16px;
+	--font-size-20: 20px;
+	--font-size-24: 24px;
+	--font-size-28: 28px;
+	--font-size-40: 40px;
+	--font-size-48: 48px;
+	--line-spacing-24: 24px;
+	--line-spacing-32: 32px;
+	--line-spacing-44: 44px;
+	--line-spacing-60: 60px;
+
+	/*Items values*/
+	--circle: 50%;
+	--size-4: 4px;
+	--size-8: calc(var(--size-4) * 2);
+	--size-12: calc(var(--size-4) * 3);
+	--size-16: calc(var(--size-4) * 4);
+	--size-20: calc(var(--size-4) * 5);
+	--size-24: calc(var(--size-4) * 6);
+	--size-28: calc(var(--size-4) * 7);
+	--size-32: calc(var(--size-4) * 8);
+	--size-40: calc(var(--size-4) * 10);
+	--size-44: calc(var(--size-4) * 11);
+	--size-48: calc(var(--size-4) * 12);
+	--size-52: calc(var(--size-4) * 13);
+	--size-60: calc(var(--size-4) * 15);
+	--size-80: calc(var(--size-4) * 20);
+	--size-100: calc(var(--size-4) * 25);
+	--size-160: calc(var(--size-4) * 40);
+	--size-200: calc(var(--size-4) * 50);
+	--size-240: calc(var(--size-4) * 60);
+	--size-280: calc(var(--size-4) * 70);
+}
