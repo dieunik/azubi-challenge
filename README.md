@@ -1,7 +1,9 @@
 # azubi-challenge
 ##My apprenticeship practice challenge
-VIEW MODE: Mobile - Iphone X
-Default browser: CHROME
+
+##VIEW MODE: Mobile - Iphone X
+##Default browser: CHROME
+
   
   ## portfolio-301021
 
