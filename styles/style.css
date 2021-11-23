@@ -195,13 +195,16 @@ a {
 	grid-row: 2;
 }
 
-.logo--top {
-	grid-column: 1;
-	grid-row: 1;
+.header__elements {
+	width: inherit;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .logo__img--top {
-	width: var(--size-160);
+	width: 25vw;
+	max-width: var(--size-160);
 }
 
 .header__cover {
@@ -220,10 +223,13 @@ a {
 	z-index: 0;
 }
 
-.header-title__text {
+.header-title {
+	display: block;
 	position: absolute;
-	top: var(--size-40);
-	left: var(--size-24);
+	left: 5%;
+}
+
+.header-title__text {
 	z-index: 1;
 }
 
@@ -268,6 +274,10 @@ a {
 }
 /*Chapter ABOUT ME*/
 /*Accordion*/
+.chapter__accordions {
+	width: 100%;
+}
+
 .chapter__accordion {
 	max-width: max-content;
 	width: 100%;
@@ -320,13 +330,13 @@ a {
 	height: var(--size-32);
 }
 
-.glide__bullet {
+/* .glide__bullet {
 	background-color: var(--secondary-color);
 }
 
 .glide__bullet--active {
 	background-color: var(--primary-color);
-}
+} */
 
 /*Chapter PROJECTS*/
 .chapter__sub-header--projects,
@@ -340,9 +350,10 @@ a {
 	width: max-content;
 	margin: 0 auto;
 }
+
 .chapter__sub-header--contact,
 .chapter__minor--contact {
-	margin-right: var(--size-24);
+	padding-left: var(--size-12);
 }
 
 .chapter__form {
@@ -361,7 +372,7 @@ a {
 .chapter-form__input,
 .chapter-form__select,
 .chapter-form__textarea {
-	padding: var(--size-12) var(--size-24);
+	padding: var(--size-12);
 	font-family: var(--primary-font);
 	color: var(--primary-color);
 	background: var(--background-color);
@@ -458,8 +469,6 @@ input[type="checkbox"] {
 
 /*Menu Toggle*/
 .toggle {
-	grid-column: 6;
-	grid-row: 1;
 	align-self: center;
 	width: var(--size-60);
 	height: var(--size-60);
@@ -500,9 +509,6 @@ input[type="checkbox"] {
 	border-radius: 20px;
 	position: relative;
 	margin-bottom: 1.5rem;
-	align-self: center;
-	grid-column: 4;
-	grid-row: 1;
 }
 
 .switch:after {
