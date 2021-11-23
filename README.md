@@ -1,7 +1,7 @@
-# azubi-challenges
-##My apprenticeship practice challenges
+# azubi-challenge
+##My apprenticeship practice challenge
   
-  ##1. portfolio-301021
+  ## portfolio-301021
 
   #### Purposes:
   - to create a simple responsive website about myself/ portfolio
