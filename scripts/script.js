@@ -3,7 +3,7 @@ const mySliderOption1 = ({
     startAt: 1,
     focusAt: 'center',
     perView: 3,
-    gap: 80,
+    // gap: 80,
     breakpoints: {
         1024: {
             perView: 2
@@ -23,7 +23,7 @@ const mySliderOption2 = ({
     startAt: 1,
     focusAt: 'center',
     perView: 2,
-    gap: 80,
+    // gap: 80,
     breakpoints: {
         1024: {
             perView: 2
