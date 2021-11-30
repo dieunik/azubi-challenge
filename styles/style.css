@@ -201,6 +201,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin: 3%;
 }
 
 .logo__img--top {
@@ -489,7 +490,7 @@ input[type="checkbox"] {
 	z-index: 5;
 }
 
-#toggle:checked ~ .header > .header__elements .toggle {
+#toggle:checked ~ .header .toggle {
 	mask-image: var(--icon-close);
 	-webkit-mask-image: var(--icon-close);
 }
@@ -526,11 +527,11 @@ input[type="checkbox"] {
 	transition: 0.3s;
 }
 
-#switch:checked ~ .header > .header__elements .switch {
+#switch:checked ~ .header .switch {
 	background: #a3bd9f;
 }
 
-#switch:checked ~ .header > .header__elements .switch:after {
+#switch:checked ~ .header .switch:after {
 	left: calc(100% - 1px);
 	transform: translateX(-100%);
 }
