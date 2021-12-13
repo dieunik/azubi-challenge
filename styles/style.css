@@ -160,6 +160,12 @@ input[type="checkbox"] {
 	.footer__link:hover {
 		color: var(--secondary-color);
 	}
+	.logo__img--top {
+		cursor: pointer;
+		cursor: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' width='30' height='30' viewBox='0 0 24 24'%3E%3Cpath fill='%23D4AF37' d='M15.5,9.63C14.21,10.32 13.03,11.2 12,12.26C10.97,11.19 9.79,10.31 8.5,9.63C8.74,6.86 9.92,4.14 12.06,2C14.18,4.12 15.31,6.84 15.5,9.63M12,15.45C14.15,12.17 17.82,10 22,10C22,20 12.68,21.88 12,22C11.32,21.89 2,20 2,10C6.18,10 9.85,12.17 12,15.45M12.05,5.19C11.39,6.23 10.93,7.38 10.68,8.58L12,9.55L13.35,8.57C13.12,7.37 12.68,6.22 12.05,5.19M12,19.97C12,19.97 18,19 19.74,12.25C14,14 12,19.1 12,19.1C12,19.1 9,13 4.26,12.26C6,19 12,19.97 12,19.97Z' /%3E%3C/svg%3E")
+				0 0,
+			crosshair;
+	}
 }
 
 /*Responsive*/
@@ -227,4 +233,74 @@ input[type="checkbox"] {
 		margin-block-start: 1.5rem;
 		margin-block-end: -1rem;
 	}
+}
+
+/*Animation Logo*/
+.d-fill {
+	fill: #627b56;
+}
+
+.line-1 {
+	fill: none;
+	stroke: #e2c87f;
+	stroke-width: 19.8425;
+	stroke-miterlimit: 10;
+}
+
+.line-2 {
+	fill: none;
+	stroke: #e2c87f;
+	stroke-width: 10.7279;
+	stroke-miterlimit: 10;
+}
+
+.line-3 {
+	fill: none;
+	stroke: #e2c87f;
+	stroke-width: 11.3386;
+	stroke-miterlimit: 10;
+}
+
+.line-4 {
+	fill: none;
+	stroke: #e2c87f;
+	stroke-width: 11.6657;
+	stroke-miterlimit: 10;
+}
+
+@keyframes fadein {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+#bloom:hover #D_part,
+#bloom:hover #low-petal,
+#bloom:hover #mid-petal,
+#bloom:hover #big-petal {
+	animation-name: fadein;
+	animation-fill-mode: both;
+}
+
+#bloom:hover #D_part {
+	animation-delay: 1.5s;
+	animation-duration: 1s;
+}
+
+#bloom:hover #low-petal {
+	animation-delay: 1s;
+	animation-duration: 2s;
+}
+
+#bloom:hover #mid-petal {
+	animation-delay: .5s;
+	animation-duration: 3s;
+}
+
+#bloom:hover #big-petal {
+	animation-duration: 4s;
 }
