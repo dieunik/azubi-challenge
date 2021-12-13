@@ -1,0 +1,93 @@
+/*FONT DEFAULT*/
+.font-alpha {
+	font-family: var(--primary-font);
+	font-size: var(--size-48);
+	font-weight: var(--font-weight-700);
+	line-height: var(--line-spacing-60);
+	color: var(--primary-color);
+	position: relative;
+	margin-top: var(--size-24);
+	margin-bottom: var(--size-32);
+	z-index: 1;
+}
+
+.font-alpha::after {
+	position: absolute;
+	content: "";
+	background: var(--secondary-color-2);
+	width: var(--size-80);
+	height: var(--size-24);
+	bottom: var(--size-4);
+	right: 0;
+	z-index: -1;
+}
+
+.font-alpha-sub {
+	font-family: var(--primary-font);
+	font-size: var(--size-40);
+	font-weight: var(--font-weight-600);
+	line-height: var(--line-spacing-44);
+	color: var(--primary-color);
+	position: relative;
+	margin-top: var(--size-24);
+	margin-bottom: var(--size-32);
+	z-index: 1;
+}
+
+.font-alpha-sub::after {
+	position: absolute;
+	content: "";
+	width: 50%;
+	height: 40%;
+	bottom: var(--size-4);
+	left: 2%;
+	z-index: -1;
+}
+
+.font-beta {
+	position: relative;
+	font-family: var(--secondary-font);
+	font-size: var(--size-24);
+	font-weight: var(--font-weight-600);
+	color: var(--primary-color);
+	margin-top: var(--size-24);
+	margin-bottom: var(--size-24);
+}
+
+.font-beta::after {
+	position: absolute;
+	content: "";
+	width: 50%;
+	height: 40%;
+	bottom: var(--size-4);
+	left: 2%;
+	z-index: -1;
+}
+
+/*Sub Header*/
+.font-delta {
+	font-family: var(--primary-font);
+	font-size: var(--size-20);
+	font-weight: var(--font-weight-400);
+	color: var(--primary-color);
+	margin-bottom: var(--size-24);
+}
+
+/*Accordion Header*/
+.font-gamma {
+	font-family: var(--secondary-font);
+	font-size: var(--size-20);
+	font-weight: var(--font-weight-600);
+	color: var(--primary-color);
+	margin-top: var(--size-8);
+	margin-bottom: var(--size-16);
+}
+
+/*Long Text*/
+.font-theta {
+	font-family: var(--primary-font);
+	font-size: var(--size-16);
+	font-weight: var(--font-weight-400);
+	color: var(--primary-color);
+	line-height: var(--line-spacing-24);
+}

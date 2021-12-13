@@ -1,0 +1,42 @@
+/*SLider*/
+.glide__slide {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.glide__track {
+	margin: 3rem;
+}
+
+.glide__img {
+	width: 100%;
+}
+
+.glide__arrow {
+	padding: .2rem .3rem;
+	border: none;
+	color: var(--secondary-color);
+}
+
+.glide__arrow--left,
+.glide__arrow--right {
+	margin: -1rem;
+}
+
+.arrows-icon {
+	width: var(--size-40);
+	height: var(--size-40);
+}
+
+.glide__bullet {
+	background-color: var(--secondary-color);
+}
+
+.glide__bullet--active {
+	background-color: var(--primary-color);
+}

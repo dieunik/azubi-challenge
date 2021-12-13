@@ -1,0 +1,95 @@
+.chapter {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: var(--size-24);
+	padding: var(--size-24);
+}
+
+/*Chapter ABOUT ME*/
+/*Accordion*/
+.chapter__accordions {
+	width: 100%;
+}
+
+.chapter__accordion {
+	max-width: max-content;
+	width: 100%;
+	margin-bottom: 2rem;
+	padding: .2rem .2rem 0;
+}
+
+.chapter-accordion__title {
+	font-weight: bold;
+	margin: -.2rem -.2rem 0;
+	padding: .2rem;
+}
+
+.chapter__accordion[open] {
+	padding: .2rem;
+}
+
+.chapter__accordion[open] .chapter-accordion__title {
+	margin-bottom: .5rem;
+}
+
+/*Chapter PROJECTS*/
+.chapter__sub-header--projects,
+.chapter__minor--projects {
+	align-self: flex-end;
+}
+
+/*Chapter CONTACT*/
+.chapter--contact {
+	align-items: baseline;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.chapter__sub-header--contact,
+.chapter__minor--contact {
+	padding-left: var(--size-12);
+}
+
+.chapter__form {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.chapter-form__input,
+.chapter-form__select {
+	border: none;
+	border-bottom: 1px solid var(--secondary-color);
+}
+
+.chapter-form__input,
+.chapter-form__select,
+.chapter-form__textarea {
+	padding: var(--size-12);
+	font-family: var(--primary-font);
+	color: var(--primary-color);
+	background: var(--background-color);
+}
+
+.chapter-form__select {
+	font-weight: var(--font-weight-700);
+}
+
+.chapter-form__textarea {
+	border: 1px solid var(--secondary-color);
+	border-radius: var(--size-8);
+	resize: none;
+}
+
+.button--form {
+	font-weight: var(--font-weight-500);
+	font-size: var(--size-12);
+	margin: var(--size-16) 0;
+	padding: var(--size-16);
+	color: var(--accent-color);
+	background: var(--primary-color);
+	border: none;
+	border-radius: var(--size-24);
+}

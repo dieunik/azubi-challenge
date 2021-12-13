@@ -22,7 +22,7 @@ const mySliderOption2 = ({
     type: 'carousel',
     startAt: 1,
     focusAt: 'center',
-    perView: 2,
+    perView: 3,
     // gap: 80,
     breakpoints: {
         1024: {

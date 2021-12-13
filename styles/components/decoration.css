@@ -1,0 +1,41 @@
+/*Decoration*/
+.decor {
+	width: inherit;
+	display: flex;
+	flex-direction: column;
+}
+
+.decor--left {
+	margin-block-end: -120px;
+}
+
+.decor--right {
+	margin-block-end: -80px;
+	margin-block-start: -80px;
+}
+
+.decor--up {
+	grid-column: 1 / span 6;
+	grid-row: 7;
+	margin-block-start: -160px;
+	z-index: 0;
+}
+
+.logo-deco {
+	height: auto;
+}
+
+.logo-deco--left {
+	width: var(--size-100);
+	align-self: flex-start;
+}
+
+.logo-deco--right {
+	width: var(--size-60);
+	align-self: flex-end;
+}
+
+.logo-deco--up {
+	width: var(--size-100);
+	z-index: 2;
+}

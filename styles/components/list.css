@@ -1,0 +1,23 @@
+/*SoMe Bar*/
+.list {
+	list-style: none;
+}
+
+.socialmedia-bar {
+	grid-column: 6;
+	grid-row: 6;
+	margin: var(--size-32) var(--size-28) var(--size-80) 0;
+	z-index: 2;
+}
+
+.socialmedia-bar__list {
+	display: flex;
+	width: var(--size-160);
+	align-self: center;
+	justify-content: space-around;
+}
+
+.list-item__icon {
+	width: var(--size-32);
+	color: var(--primary-color);
+}

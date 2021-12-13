@@ -1,0 +1,13 @@
+.top-bar-nav {
+	display: none;
+	width: 60%;
+}
+
+.top-bar-nav__list {
+	display: flex;
+	margin-left: 3rem;
+}
+
+.top-bar-nav__item {
+	margin: 0 3%;
+}
