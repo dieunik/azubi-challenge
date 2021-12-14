@@ -186,6 +186,26 @@ input[type="checkbox"] {
 		display: block;
 	}
 
+	.menu,
+	.toggle,
+	.header__buttons {
+		display: none;
+	}
+
+	.header-cover__img {
+		width: 60%;
+		z-index: -1;
+	}
+
+	.header-title__text--1 {
+		display: none;
+	}
+
+	.header-title__text--2 {
+		display: block;
+		animation: animated-text 3s steps(25, end) 1s 1 normal both, animated-cursor 600ms steps(25, end) infinite;
+	}
+
 	.chapter__sub-header--projects,
 	.chapter__sub-header--contact,
 	.chapter__minor--projects,
@@ -213,20 +233,23 @@ input[type="checkbox"] {
 		width: 100%;
 	}
 
-	.menu,
-	.toggle,
-	.header__buttons {
-		display: none;
+	/* text animation */
+	@keyframes animated-text {
+		from {
+			width: 0;
+		}
+		to {
+			width: 350px;
+		}
 	}
-
-	.header-cover__img {
-		width: 60%;
-		z-index: -1;
-	}
-
-	.header-title__text {
-		font-size: var(--size-60);
-		line-height: var(--line-spacing-80);
+	/* cursor animations */
+	@keyframes animated-cursor {
+		from {
+			border-right-color: var(--secondary-color);
+		}
+		to {
+			border-right-color: transparent;
+		}
 	}
 
 	.divider--top {

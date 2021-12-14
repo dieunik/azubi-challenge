@@ -1,3 +1,4 @@
+@import url(root.css);
 /*--HEADER--*/
 .header {
 	display: flex;
@@ -43,4 +44,19 @@
 
 .header-title__text {
 	z-index: 1;
+}
+
+.header-title__text--2 {
+	display: none;
+	font-size: var(--size-60);
+	font-weight: var(--font-weight-700);
+	line-height: var(--line-spacing-80);
+	font-family: var(--primary-font);
+	color: var(--primary-color);
+	position: relative;
+	margin-top: var(--size-24);
+	margin-bottom: var(--size-32);
+	border-right: solid 4px var(--secondary-color);
+	white-space: nowrap;
+	overflow: hidden;
 }
