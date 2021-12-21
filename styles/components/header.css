@@ -60,3 +60,23 @@
 	white-space: nowrap;
 	overflow: hidden;
 }
+
+@media screen and (min-width: 1024px) {
+	.header__buttons {
+		display: none;
+	}
+
+	.header-cover__img {
+		width: 60%;
+		z-index: -1;
+	}
+
+	.header-title__text--1 {
+		display: none;
+	}
+
+	.header-title__text--2 {
+		display: block;
+		animation: animated-text 3s steps(25, end) 1s 1 normal both, animated-cursor 600ms steps(25, end) infinite;
+	}
+}

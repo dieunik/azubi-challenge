@@ -169,70 +169,10 @@ input[type="checkbox"] {
 }
 
 /*Responsive*/
-@media screen and (min-width: 600px) {
-	.header__buttons {
-		flex-direction: row;
-	}
-
-	/*Chapter ABOUT ME*/
-	.chapter__accordions {
-		width: 70%;
-		padding-left: 10%;
-	}
-}
-
 @media screen and (min-width: 1024px) {
-	.top-bar-nav {
-		display: block;
-	}
-
-	.menu,
-	.toggle,
-	.header__buttons {
+	.toggle {
 		display: none;
 	}
-
-	.header-cover__img {
-		width: 60%;
-		z-index: -1;
-	}
-
-	.header-title__text--1 {
-		display: none;
-	}
-
-	.header-title__text--2 {
-		display: block;
-		animation: animated-text 3s steps(25, end) 1s 1 normal both, animated-cursor 600ms steps(25, end) infinite;
-	}
-
-	.chapter__sub-header--projects,
-	.chapter__sub-header--contact,
-	.chapter__minor--projects,
-	.chapter__minor--contact {
-		align-self: center;
-	}
-
-	/*Chapter ABOUT ME*/
-	.chapter__accordions {
-		width: 60%;
-		padding-left: 15%;
-	}
-
-	.chapter__form {
-		width: 40%;
-		align-self: center;
-	}
-
-	/*Social Media Bar*/
-	.socialmedia-bar {
-		margin: 2rem 1rem 4rem .5rem;
-	}
-
-	.socialmedia-bar__list {
-		width: 100%;
-	}
-
 	/* text animation */
 	@keyframes animated-text {
 		from {
@@ -250,11 +190,6 @@ input[type="checkbox"] {
 		to {
 			border-right-color: transparent;
 		}
-	}
-
-	.divider--top {
-		margin-block-start: 1.5rem;
-		margin-block-end: -1rem;
 	}
 }
 

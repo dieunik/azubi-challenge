@@ -22,3 +22,10 @@
 	margin-block-start: -1rem;
 	margin-block-end: -1rem;
 }
+
+@media screen and (min-width: 1024px) {
+	.divider--top {
+		margin-block-start: 1.5rem;
+		margin-block-end: -1rem;
+	}
+}
