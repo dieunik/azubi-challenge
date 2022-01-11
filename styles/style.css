@@ -90,50 +90,6 @@ input[type="checkbox"] {
 	opacity: 1;
 }
 
-/*Switch Theme Button*/
-.switch {
-	cursor: pointer;
-	text-indent: -9999px;
-	width: 48px;
-	height: 24px;
-	background: var(--accent-color);
-	display: block;
-	border: 1px solid var(--secondary-color);
-	border-radius: 20px;
-	position: relative;
-	margin-bottom: 1.5rem;
-}
-
-.switch:after {
-	content: "";
-	position: absolute;
-	top: 2px;
-	left: 2px;
-	width: 18px;
-	height: 18px;
-	background: var(--secondary-color);
-	border-radius: 18px;
-	transition: 0.3s;
-}
-
-#switch:checked ~ .header .switch {
-	background: #a3bd9f;
-}
-
-#switch:checked ~ .header .switch:after {
-	left: calc(100% - 1px);
-	transform: translateX(-100%);
-}
-
-.switch:active:after {
-	width: 26px;
-}
-
-/*Switching MODE*/
-#switch:checked ~ .main {
-	--background-color: #191616;
-}
-
 /*Media Queries*/
 /*Hover*/
 @media (hover: hover) {

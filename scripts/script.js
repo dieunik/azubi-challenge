@@ -37,3 +37,15 @@ const mySliderOption2 = ({
 
 const mySlider2 = new Glide('.glide2', mySliderOption2);
 mySlider2.mount();
+
+const menuItem = document.querySelector('a.nav-link');
+const menuBurger = document.querySelector('.toggle');
+
+
+if (menuBurger.checked = true) {
+    menuItem.onclick = function () {
+        document.getElementById('menu').style.width = 0;
+    };
+} else {
+    console.log("test")
+};
