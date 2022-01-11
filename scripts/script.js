@@ -38,14 +38,12 @@ const mySliderOption2 = ({
 const mySlider2 = new Glide('.glide2', mySliderOption2);
 mySlider2.mount();
 
-const menuItem = document.querySelector('a.nav-link');
-const menuBurger = document.querySelector('.toggle');
+const menuItems = document.querySelectorAll('a.nav-link');
+const toggle = document.querySelector('#toggle');
 
 
-if (menuBurger.checked = true) {
+menuItems.forEach(function (menuItem) {
     menuItem.onclick = function () {
-        document.getElementById('menu').style.width = 0;
+        toggle.checked = false
     };
-} else {
-    console.log("test")
-};
+});
